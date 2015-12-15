@@ -13,10 +13,11 @@ class NotFoundException(Exception):
 
 class NotRegisteredPatternException(Exception):
     def __init__(self, pattern_name):
-        self.pattern_name = patter_name
+        self.pattern_name = pattern_name
 
     def __str__(self):
         return (
-            "Not registered the following pattern. Perhaps, don't you miss-spell?\n" +
+            "Not registered the following pattern." +
+            "Perhaps, don't you miss-spell?\n" +
             'PATTERN_NAME:  ' + repr(self.pattern_name)
         )
