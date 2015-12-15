@@ -8,3 +8,12 @@
 >>> e.extract_all(pattern_name='class')
 ['class Extracter:']
 ```
+
+## Todo
+- Add tests
+- Rename project
+- Able to use 'python setup.py install'
+- Upload to pypi
+- Add patterns
+- Be useful not only 'python'
+- For purpose of multi-line
