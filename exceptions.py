@@ -17,7 +17,7 @@ class NotRegisteredPatternException(Exception):
 
     def __str__(self):
         return (
-            "Not registered the following pattern." +
+            "Not registered the following pattern.\n" +
             "Perhaps, don't you miss-spell?\n" +
             'PATTERN_NAME:  ' + repr(self.pattern_name)
         )
