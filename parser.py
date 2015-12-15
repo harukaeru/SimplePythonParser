@@ -18,9 +18,9 @@ class Extracter:
         return matches
 
     def extract(self, pattern_name):
-        extract = pattern_repository.extract(pattern_name)
-        return self.evaluate_by_line(call_back=extract)
+        pattern_extract = pattern_repository.extract(pattern_name)
+        return self.evaluate_by_line(call_back=pattern_extract)
 
     def extract_all(self, pattern_name):
-        extract_all = pattern_repository.extract_all(pattern_name)
-        return self.evaluate_by_line(call_back=extract_all)
+        pattern_extract_all = pattern_repository.extract_all(pattern_name)
+        return self.evaluate_by_line(call_back=pattern_extract_all)
