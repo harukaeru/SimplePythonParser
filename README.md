@@ -1,7 +1,7 @@
 # SimplePythonParser
 ```python
->>> from parser import Extracter
->>> f = open('parser.py')
+>>> from extracter import Extracter
+>>> f = open('extracter.py')
 >>> e = Extracter(f=f)
 >>> e.extract(pattern_name='class')
 ['Extracter']
