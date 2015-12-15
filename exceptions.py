@@ -19,5 +19,5 @@ class NotRegisteredPatternException(Exception):
         return (
             "Not registered the following pattern.\n" +
             "Perhaps, don't you miss-spell?\n" +
-            'PATTERN_NAME:  ' + repr(self.pattern_name)
+            'PATTERN_NAME: ' + repr(self.pattern_name)
         )
